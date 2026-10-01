@@ -1,0 +1,6 @@
+{
+  "name": "News Card Mission - Dari Potongan Informasi Menjadi Berita",
+  "description": "Media pembelajaran interaktif Bahasa Indonesia untuk murid SMA/SMK dalam materi Teks Berita melalui tahapan Read, Find, Arrange, Write, and Submit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
