@@ -34,14 +34,11 @@ export const StudentIdentitySection: React.FC<StudentIdentitySectionProps> = ({
     data.attendanceNumber.trim().length >= 1 &&
     data.className.trim().length >= 2;
 
-  const groupOptions = [
-    { name: 'Kelompok 1', caseNum: 'Case 01', topic: 'Festival Kuliner Nusantara' },
-    { name: 'Kelompok 2', caseNum: 'Case 02', topic: 'Prototipe Mobil Listrik' },
-    { name: 'Kelompok 3', caseNum: 'Case 03', topic: 'Pameran Desain Komunikasi Visual' },
-    { name: 'Kelompok 4', caseNum: 'Case 04', topic: 'Penanaman 1.000 Pohon Mangrove' },
-    { name: 'Kelompok 5', caseNum: 'Case 05', topic: 'Simulasi Evakuasi Gempa & Kebakaran' },
-    { name: 'Kelompok 6', caseNum: 'Case 06', topic: 'Laboratorium Cloud AI & Bootcamp' },
-  ];
+  const groupOptions = NEWS_CASES.map((nc) => ({
+    name: nc.groupName,
+    caseNum: `Case ${nc.caseNumber}`,
+    topic: nc.topicTitle,
+  }));
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 sm:py-12">
@@ -104,7 +101,7 @@ export const StudentIdentitySection: React.FC<StudentIdentitySectionProps> = ({
               type="text"
               value={data.className}
               onChange={(e) => onUpdate({ className: e.target.value })}
-              placeholder="Contoh: XI Kuliner 2 / XI DKV 1"
+              placeholder="Contoh: XI Kuliner 1 / XI Tata Boga 2"
               className="w-full px-4 py-3 text-sm text-[#132238] bg-slate-50 border border-slate-200 rounded-lg focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#132238] transition-colors"
             />
           </div>
