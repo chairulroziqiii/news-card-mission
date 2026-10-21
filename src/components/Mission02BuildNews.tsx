@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { ArrowRight, ArrowLeft, Layers, CheckCircle2, BookOpen, ChevronDown, ChevronUp, Sparkles, Save, Lightbulb, HelpCircle, X } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Layers, CheckCircle2, BookOpen, ChevronDown, ChevronUp, Sparkles, Save, Lightbulb, HelpCircle, X, Copy, Check } from 'lucide-react';
 import { FiveWOneH, NewsStructure, NewsCase } from '../types';
+import { FiveWOneHHintModal } from './FiveWOneHHintModal';
+import { NEWS_STRUCTURE_HINTS } from '../data/hintsData';
 
 interface Mission02BuildNewsProps {
   currentCase: NewsCase;
@@ -24,7 +26,9 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
   const [form, setForm] = useState<NewsStructure>(initialValues);
   const [show5W1HRef, setShow5W1HRef] = useState<boolean>(true);
   const [showStructureModal, setShowStructureModal] = useState<boolean>(false);
+  const [show5W1HHintModal, setShow5W1HHintModal] = useState<boolean>(false);
   const [savedFeedback, setSavedFeedback] = useState<string>('');
+  const [copiedPattern, setCopiedPattern] = useState<string>('');
 
   const handleChange = (field: keyof NewsStructure, value: string) => {
     const updated = { ...form, [field]: value };
@@ -40,55 +44,23 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
     }, 3000);
   };
 
+  const handleCopyPattern = (text: string) => {
+    navigator.clipboard.writeText(text);
+    setCopiedPattern(text);
+    setTimeout(() => {
+      setCopiedPattern('');
+    }, 2000);
+  };
+
+  const handleInsertPattern = (fieldKey: keyof NewsStructure, text: string) => {
+    const currentVal = form[fieldKey] || '';
+    const updatedVal = currentVal ? `${currentVal} ${text}` : text;
+    handleChange(fieldKey, updatedVal);
+    handleCopyPattern(text);
+  };
+
   const isFormComplete = Object.values(form).every((val) => val.trim().length >= 5);
 
-  const structureSteps = [
-    {
-      id: 'title',
-      label: 'JUDUL',
-      guide: 'Buat judul yang singkat, jelas, dan menggambarkan peristiwa utama.',
-      placeholder: 'Tuliskan judul rancangan beritamu...',
-      rows: 2,
-      isInput: true,
-      role: 'Menarik perhatian pembaca dan memberi gambaran peristiwa dalam satu tarikan nafas.',
-    },
-    {
-      id: 'lead',
-      label: 'TERAS BERITA',
-      guide: 'Gunakan informasi paling penting untuk memperkenalkan peristiwa kepada pembaca.',
-      placeholder: 'Tuliskan teras berita pembuka di sini...',
-      rows: 3,
-      isInput: false,
-      role: 'Paragraf pertama yang memuat intisari penting peristiwa (perpaduan Apa, Siapa, Kapan, dan Di mana).',
-    },
-    {
-      id: 'body',
-      label: 'TUBUH BERITA',
-      guide: 'Kembangkan informasi penting dan detail dari News Card.',
-      placeholder: 'Jelaskan kronologi, rincian peristiwa, dan proses kegiatan...',
-      rows: 4,
-      isInput: false,
-      role: 'Pengembangan detail peristiwa, menjawab pertanyaan Bagaimana proses terjadi dan Mengapa kegiatan dilakukan.',
-    },
-    {
-      id: 'quote',
-      label: 'KUTIPAN',
-      guide: 'Gunakan informasi dari pernyataan narasumber yang tersedia.',
-      placeholder: 'Masukkan kutipan pernyataan dari narasumber pada News Card...',
-      rows: 3,
-      isInput: false,
-      role: 'Memperkuat fakta objektif dan kredibilitas tulisan lewat keterangan langsung saksi atau pembimbing.',
-    },
-    {
-      id: 'closing',
-      label: 'PENUTUP',
-      guide: 'Gunakan informasi tambahan yang sesuai untuk mengakhiri berita.',
-      placeholder: 'Tuliskan kalimat penutup atau harapan masa depan...',
-      rows: 3,
-      isInput: false,
-      role: 'Bagian akhir berupa data pelengkap, dampak acara, atau kesimpulan umum.',
-    },
-  ];
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
@@ -106,21 +78,30 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
           </p>
         </div>
 
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex flex-wrap items-center gap-2 shrink-0">
+          <button
+            type="button"
+            onClick={() => setShow5W1HHintModal(true)}
+            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100 text-xs font-bold shadow-2xs cursor-pointer transition-colors"
+          >
+            <Lightbulb className="w-3.5 h-3.5 text-amber-700" />
+            <span>💡 Petunjuk 5W+1H</span>
+          </button>
+
           <button
             type="button"
             onClick={() => setShowStructureModal(true)}
-            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-lg border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100 text-xs font-bold shadow-2xs cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 text-xs font-bold shadow-2xs cursor-pointer transition-colors"
           >
-            <Lightbulb className="w-4 h-4 text-amber-700" />
-            <span>💡 Petunjuk Struktur</span>
+            <Layers className="w-3.5 h-3.5 text-[#132238]" />
+            <span>Struktur Berita</span>
           </button>
 
           <button
             onClick={onOpenReference}
-            className="inline-flex items-center gap-2 px-3.5 py-2.5 rounded-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 text-xs font-semibold shadow-2xs cursor-pointer"
+            className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 text-xs font-semibold shadow-2xs cursor-pointer transition-colors"
           >
-            <BookOpen className="w-4 h-4 text-[#E63946]" />
+            <BookOpen className="w-3.5 h-3.5 text-[#E63946]" />
             <span>Lihat Kartu</span>
           </button>
         </div>
@@ -155,7 +136,7 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
             KUTIPAN (Pernyataan langsung narasumber resmi)
           </div>
           <div className="w-[68%] mx-auto bg-slate-400 text-[#132238] text-xs sm:text-sm font-bold py-2 px-4 rounded text-center shadow-xs">
-            PENUTUP (Informasi pelengkap atau kesimpulan)
+            PENUTUP (EKOR BERITA) (Informasi pelengkap atau kesimpulan)
           </div>
         </div>
       </div>
@@ -211,47 +192,172 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
 
       {/* Structure Form */}
       <div className="space-y-6 mb-8">
-        {structureSteps.map((step) => {
+        {NEWS_STRUCTURE_HINTS.map((step) => {
           const fieldKey = step.id as keyof NewsStructure;
           return (
             <div
               key={step.id}
-              className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-2xs hover:border-slate-300 transition-all"
+              className="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-2xs hover:border-slate-300 transition-all space-y-3.5"
             >
-              <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-1">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-b border-slate-100 pb-2.5">
                 <label
                   htmlFor={`build-${step.id}`}
-                  className="font-mono text-xs font-bold text-[#E63946] uppercase tracking-wider"
+                  className="font-mono text-xs sm:text-sm font-bold text-[#E63946] uppercase tracking-wider flex items-center gap-2"
                 >
-                  BAGIAN: {step.label}
+                  <span className="w-2 h-2 rounded-full bg-[#E63946]"></span>
+                  <span>BAGIAN: {step.label}</span>
                 </label>
+                <span className="text-[11px] text-slate-500 font-medium hidden sm:inline">
+                  {step.role}
+                </span>
               </div>
               
-              {/* Requested exact scaffolding petunjuk */}
-              <div className="mb-2 text-xs font-semibold text-slate-700 bg-slate-50 p-2.5 rounded border border-slate-100 flex items-start gap-1.5">
-                <Lightbulb className="w-3.5 h-3.5 text-[#F4B942] shrink-0 mt-0.5" />
-                <span>Petunjuk: “{step.guide}”</span>
+              {/* Petunjuk & Contoh Pola / Kata Transisi Box */}
+              <div className="bg-amber-50/70 border border-amber-200/90 rounded-lg p-3.5 sm:p-4 space-y-3 text-xs text-slate-800">
+                {/* Petunjuk Baru */}
+                <div className="flex items-start gap-2">
+                  <Lightbulb className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <div className="leading-relaxed">
+                    <strong className="text-amber-950 font-bold">Petunjuk: </strong>
+                    <span className="text-slate-800">&ldquo;{step.guide}&rdquo;</span>
+                  </div>
+                </div>
+
+                {/* Contoh Pola / Contoh Kata/Pola */}
+                {step.patterns && step.patterns.length > 0 && (
+                  <div className="pt-2.5 border-t border-amber-200/70 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="font-bold text-[#132238] flex items-center gap-1.5">
+                        <span className="text-[#E63946]">▶</span>
+                        <span>
+                          {step.id === 'lead' || step.id === 'closing'
+                            ? 'Contoh Kata/Pola:'
+                            : 'Contoh Pola:'}
+                        </span>
+                      </span>
+                      <span className="text-[10px] text-slate-500">
+                        Klik &lsquo;Salin&rsquo; atau &lsquo;Sisipkan&rsquo; untuk memakai pola
+                      </span>
+                    </div>
+
+                    <div className="space-y-1.5">
+                      {step.patterns.map((pat, idx) => (
+                        <div
+                          key={idx}
+                          className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 bg-white border border-amber-200/90 rounded-lg px-3 py-2 text-xs"
+                        >
+                          <div className="flex items-center gap-2">
+                            <span className="text-[#E63946] font-bold">•</span>
+                            <span className="font-mono text-amber-950 font-medium select-all">
+                              &lsquo;{pat}&rsquo;
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 shrink-0 self-end sm:self-auto">
+                            <button
+                              type="button"
+                              onClick={() => handleCopyPattern(pat)}
+                              className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 font-sans text-[11px] font-medium transition-colors cursor-pointer"
+                              title="Salin ke clipboard"
+                            >
+                              {copiedPattern === pat ? (
+                                <>
+                                  <Check className="w-3 h-3 text-emerald-600" />
+                                  <span className="text-emerald-700 font-bold">Tersalin</span>
+                                </>
+                              ) : (
+                                <>
+                                  <Copy className="w-3 h-3 text-slate-500" />
+                                  <span>Salin</span>
+                                </>
+                              )}
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => handleInsertPattern(fieldKey, pat)}
+                              className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-amber-100 hover:bg-amber-200 text-amber-900 font-sans text-[11px] font-semibold transition-colors cursor-pointer"
+                              title="Sisipkan ke kotak isian"
+                            >
+                              <span>+ Sisipkan</span>
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Contoh Kata Transisi */}
+                {step.transitions && step.transitions.length > 0 && (
+                  <div className="pt-2.5 border-t border-amber-200/70 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="font-bold text-[#132238] flex items-center gap-1.5">
+                        <span className="text-[#F4B942]">▶</span>
+                        <span>Contoh Kata Transisi:</span>
+                      </span>
+                      <span className="text-[10px] text-slate-500">
+                        Gunakan untuk merangkai kalimat tubuh berita yang padu
+                      </span>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2">
+                      {step.transitions.map((trans, idx) => (
+                        <div
+                          key={idx}
+                          className="inline-flex items-center gap-1.5 bg-white border border-amber-300 rounded-lg pl-2.5 pr-1.5 py-1 text-xs shadow-2xs"
+                        >
+                          <Sparkles className="w-3 h-3 text-amber-500 shrink-0" />
+                          <span className="font-mono text-amber-950 font-medium">
+                            &lsquo;{trans}&rsquo;
+                          </span>
+                          <button
+                            type="button"
+                            onClick={() => handleCopyPattern(trans)}
+                            className="p-1 hover:bg-amber-50 rounded text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
+                            title="Salin kata transisi"
+                          >
+                            {copiedPattern === trans ? (
+                              <Check className="w-3 h-3 text-emerald-600" />
+                            ) : (
+                              <Copy className="w-3 h-3 text-slate-500" />
+                            )}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleInsertPattern(fieldKey, trans)}
+                            className="px-1.5 py-0.5 rounded bg-amber-100 hover:bg-amber-200 text-amber-900 font-bold text-[10px] transition-colors cursor-pointer"
+                            title="Sisipkan kata transisi"
+                          >
+                            +
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
-              {step.isInput ? (
-                <input
-                  id={`build-${step.id}`}
-                  type="text"
-                  value={form[fieldKey]}
-                  onChange={(e) => handleChange(fieldKey, e.target.value)}
-                  placeholder={step.placeholder}
-                  className="w-full px-3.5 py-2.5 text-sm sm:text-base font-semibold text-[#132238] bg-slate-50 border border-slate-200 rounded-lg focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#132238] transition-colors"
-                />
-              ) : (
-                <textarea
-                  id={`build-${step.id}`}
-                  rows={step.rows}
-                  value={form[fieldKey]}
-                  onChange={(e) => handleChange(fieldKey, e.target.value)}
-                  placeholder={step.placeholder}
-                  className="w-full px-3.5 py-2.5 text-sm text-[#132238] bg-slate-50 border border-slate-200 rounded-lg focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#132238] transition-colors leading-relaxed"
-                />
-              )}
+              {/* Input Area */}
+              <div>
+                {step.isInput ? (
+                  <input
+                    id={`build-${step.id}`}
+                    type="text"
+                    value={form[fieldKey]}
+                    onChange={(e) => handleChange(fieldKey, e.target.value)}
+                    placeholder={step.placeholder}
+                    className="w-full px-3.5 py-2.5 text-sm sm:text-base font-semibold text-[#132238] bg-slate-50 border border-slate-200 rounded-lg focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#132238] transition-colors"
+                  />
+                ) : (
+                  <textarea
+                    id={`build-${step.id}`}
+                    rows={step.rows}
+                    value={form[fieldKey]}
+                    onChange={(e) => handleChange(fieldKey, e.target.value)}
+                    placeholder={step.placeholder}
+                    className="w-full px-3.5 py-2.5 text-sm text-[#132238] bg-slate-50 border border-slate-200 rounded-lg focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#132238] transition-colors leading-relaxed"
+                  />
+                )}
+              </div>
             </div>
           );
         })}
@@ -339,17 +445,56 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
             </div>
 
             <div className="space-y-3 text-xs sm:text-sm text-slate-700 max-h-[60vh] overflow-y-auto pr-1">
-              {structureSteps.map((st) => (
-                <div key={st.id} className="p-3 rounded-lg bg-slate-50 border border-slate-200">
-                  <h4 className="font-bold text-[#132238] uppercase font-mono text-xs text-[#E63946] mb-1">
-                    {st.label}
-                  </h4>
-                  <p className="text-slate-600 mb-1">
+              {NEWS_STRUCTURE_HINTS.map((st) => (
+                <div key={st.id} className="p-3.5 rounded-lg bg-slate-50 border border-slate-200 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <h4 className="font-bold uppercase font-mono text-xs text-[#E63946] flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#E63946]"></span>
+                      <span>BAGIAN: {st.label}</span>
+                    </h4>
+                    <span className="text-[10px] text-slate-500 font-mono">Piramida Terbalik</span>
+                  </div>
+
+                  <p className="text-slate-600 text-xs">
                     <strong>Fungsi:</strong> {st.role}
                   </p>
-                  <p className="text-slate-700 italic">
-                    <strong>Petunjuk:</strong> “{st.guide}”
-                  </p>
+
+                  <div className="bg-amber-50/80 p-2.5 rounded border border-amber-200/90 text-xs space-y-1.5">
+                    <p className="text-amber-950">
+                      <strong>Petunjuk Baru:</strong> &ldquo;{st.guide}&rdquo;
+                    </p>
+
+                    {st.patterns && st.patterns.length > 0 && (
+                      <div className="pt-1.5 border-t border-amber-200/60">
+                        <strong className="text-slate-800 block text-[11px] mb-1">
+                          {st.id === 'lead' || st.id === 'closing' ? 'Contoh Kata/Pola:' : 'Contoh Pola:'}
+                        </strong>
+                        <ul className="space-y-1 font-mono text-[11px] text-amber-950 pl-2">
+                          {st.patterns.map((p, idx) => (
+                            <li key={idx} className="flex items-center gap-1.5">
+                              <span className="text-[#E63946] font-bold">•</span>
+                              <span>&lsquo;{p}&rsquo;</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {st.transitions && st.transitions.length > 0 && (
+                      <div className="pt-1.5 border-t border-amber-200/60">
+                        <strong className="text-slate-800 block text-[11px] mb-1">
+                          Contoh Kata Transisi:
+                        </strong>
+                        <div className="flex flex-wrap gap-1 font-mono text-[11px] text-amber-950">
+                          {st.transitions.map((t, idx) => (
+                            <span key={idx} className="px-1.5 py-0.5 rounded bg-white border border-amber-300">
+                              &lsquo;{t}&rsquo;
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
@@ -358,7 +503,7 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
               <button
                 type="button"
                 onClick={() => setShowStructureModal(false)}
-                className="px-4 py-2 bg-[#132238] text-white text-xs font-semibold rounded-lg hover:bg-[#1f3555]"
+                className="px-4 py-2 bg-[#132238] text-white text-xs font-semibold rounded-lg hover:bg-[#1f3555] cursor-pointer"
               >
                 Tutup Petunjuk
               </button>
@@ -366,6 +511,12 @@ export const Mission02BuildNews: React.FC<Mission02BuildNewsProps> = ({
           </div>
         </div>
       )}
+
+      {/* Global 5W+1H Hint Modal */}
+      <FiveWOneHHintModal
+        isOpen={show5W1HHintModal}
+        onClose={() => setShow5W1HHintModal(false)}
+      />
     </div>
   );
 };

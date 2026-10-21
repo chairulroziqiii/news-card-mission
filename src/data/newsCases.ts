@@ -9,100 +9,100 @@ export const NEWS_CASES: NewsCase[] = [
     caseNumber: '01',
     groupNumber: 1,
     groupName: 'Kelompok 1',
-    topicTitle: 'Gelar Inovasi Olahan Mocaf & Kelor: Siswa SMK Ciptakan Pastry Bebas Gluten',
-    category: 'Inovasi Produk & Pangan Lokal',
-    overview: 'Inovasi siswa kejuruan kuliner dalam mengolah tepung mocaf fermentasi dan serbuk daun kelor menjadi produk pastry modern bernilai jual tinggi serta ramah bagi kesehatan.',
+    topicTitle: 'Lomba Perdana Membuat Pastry & Roti: Siswa SMK Kuliner Adu Keterampilan Mengolah Adonan',
+    category: 'Lomba & Praktik Tata Boga',
+    overview: 'Keseruan lomba perdana membuat kreasi pastry dan aneka roti manis di laboratorium boga sekolah untuk mengasah keahlian teknik menguleni adonan, proofing ragi, hingga pemanggangan oven.',
     cards: [
       {
         id: 'c1-card-01',
         number: '01',
         label: 'KARTU INFORMASI 01',
-        sublabel: 'Laporan Peristiwa',
-        content: 'Pameran gelar karya inovasi boga bertajuk “Pastry Sehat Berbasis Pangan Lokal Nusantara” sukses diselenggarakan sebagai wujud terobosan siswa kejuruan kuliner dalam menciptakan aneka olahan kue dan roti bebas gluten (gluten-free).',
-        keywords: ['pameran', 'gelar karya', 'pastry sehat', 'pangan lokal', 'bebas gluten', 'inovasi']
+        sublabel: 'Peristiwa Utama (Bahan Judul & Teras Berita)',
+        content: 'SMK Negeri 1 Tata Boga menggelar lomba perdana membuat kreasi pastry dan roti manis antar-siswa sebagai ajang menguji keterampilan dasar pembuatan roti dan kue.',
+        keywords: ['lomba', 'pastry', 'roti manis', 'smk negeri 1 tata boga', 'kreasi', 'boga']
       },
       {
         id: 'c1-card-02',
         number: '02',
         label: 'KARTU INFORMASI 02',
-        sublabel: 'Pihak yang Terlibat',
-        content: 'Kegiatan riset dan produksi olahan pangan ini digagas oleh 36 murid kelas XI Konsentrasi Keahlian Kuliner SMK Negeri 3 Magelang dengan pendampingan intensif dari praktisi asosiasi pastry nasional.',
-        keywords: ['36 murid', 'siswa', 'kelas xi', 'kuliner', 'smk negeri 3 magelang', 'chef']
+        sublabel: 'Pihak Terlibat (Siapa yang Terlibat)',
+        content: 'Lomba ini diikuti oleh 30 siswa kelas X Jurusan Kuliner yang terbagi dalam 10 tim, serta dinilai langsung oleh guru pembimbing pastry, Ibu Chef Ratna.',
+        keywords: ['30 siswa', 'siswa', 'kelas x', 'jurusan kuliner', 'chef ratna', 'guru']
       },
       {
         id: 'c1-card-03',
         number: '03',
         label: 'KARTU INFORMASI 03',
-        sublabel: 'Lokasi Kegiatan',
-        content: 'Ajang unjuk kreasi dan uji rasa hidangan ini diselenggarakan di Laboratorium Dapur Bakery & Pastry serta Galeri Boga Terbuka SMKN 3 Magelang, Jawa Tengah.',
-        keywords: ['laboratorium', 'dapur bakery', 'smkn 3 magelang', 'jawa tengah']
+        sublabel: 'Lokasi Peristiwa (Di mana Berlangsung)',
+        content: 'Kegiatan lomba berlangsung di Laboratorium Bakery & Pastry Lantai 2 Kampus SMK Negeri 1 Tata Boga.',
+        keywords: ['laboratorium', 'bakery', 'pastry', 'lantai 2', 'smk negeri 1 tata boga']
       },
       {
         id: 'c1-card-04',
         number: '04',
         label: 'KARTU INFORMASI 04',
-        sublabel: 'Waktu Pelaksanaan',
-        content: 'Acara pameran dan uji organoleptik masakan dibuka resmi pada hari Kamis, 22 Oktober 2026, berlangsung mulai pukul 08.30 hingga 14.30 WIB.',
-        keywords: ['kamis', '22 oktober 2026', 'oktober', '2026', '08.30']
+        sublabel: 'Waktu Peristiwa (Kapan Terjadi)',
+        content: 'Lomba memasak roti ini dilaksanakan pada hari Selasa, 14 Oktober 2026, mulai pukul 08.00 hingga 12.00 WIB.',
+        keywords: ['selasa', '14 oktober 2026', 'oktober', '2026', '08.00']
       },
       {
         id: 'c1-card-05',
         number: '05',
         label: 'KARTU INFORMASI 05',
-        sublabel: 'Tujuan Pembuatan',
-        content: 'Inovasi ini bertujuan menekan ketergantungan gandum impor dengan mendayagunakan komoditas singkong dan daun kelor lokal, sekaligus menghadirkan produk camilan bergizi tinggi yang aman dikonsumsi masyarakat berkebutuhan diet khusus.',
-        keywords: ['ketergantungan gandum', 'pangan lokal', 'singkong', 'kelor', 'diet khusus', 'tujuan']
+        sublabel: 'Tujuan Kegiatan (Mengapa Diadakan)',
+        content: 'Tujuan lomba adalah melatih ketelitian siswa dalam menakar resep bahan, menguasai waktu fermentasi (proofing), dan membiasakan siswa bekerja di bawah batas waktu standar kompetisi.',
+        keywords: ['melatih', 'ketelitian', 'resep', 'proofing', 'fermentasi', 'tujuan', 'waktu']
       },
       {
         id: 'c1-card-06',
         number: '06',
         label: 'KARTU INFORMASI 06',
-        sublabel: 'Proses & Metode Pengolahan',
-        content: 'Para murid memformulasikan tepung mocaf terfermentasi dengan serbuk daun kelor mikro, menerapkan teknik laminasi lipatan mentega dingin untuk croissant, serta memanggang adonan pada suhu presisi 180 derajat Celsius guna menjaga kerenyahan tekstur dan warna hijau alami.',
-        keywords: ['formulasi', 'mocaf', 'laminasi', 'croissant', 'suhu 180', 'memanggang']
+        sublabel: 'Proses Kerja (Bagaimana Jalannya)',
+        content: 'Siswa menguleni adonan tepung dan mentega hingga kalis, mengistirahatkan adonan di wadah tertutup agar mengembang, membentuk aneka isian cokelat keju, lalu memanggangnya di dalam oven bersuhu 180 derajat Celsius.',
+        keywords: ['menguleni', 'kalis', 'adonan', 'proofing', 'oven', 'suhu 180', 'memanggang']
       },
       {
         id: 'c1-card-07',
         number: '07',
         label: 'KARTU INFORMASI 07',
-        sublabel: 'Data Hasil Uji Rasa',
-        content: 'Sebanyak 250 boks paket croissant dan muffin kelor ludes terjual dalam kurun 45 menit pertama, dengan nilai survei kepuasan rasa mencapai 92 persen dari 150 panelis pengunjung.',
-        keywords: ['250 boks', 'muffin kelor', '45 menit', 'survei kepuasan', '92 persen']
+        sublabel: 'Hasil Akhir (Fakta & Angka)',
+        content: 'Seluruh peserta berhasil menghasilkan total 60 loyang roti manis bertekstur empuk dan warna keemasan merata yang langsung dinilai dewan juri.',
+        keywords: ['60 loyang', 'roti manis', 'empuk', 'keemasan', 'hasil']
       },
       {
         id: 'c1-card-08',
         number: '08',
         label: 'KARTU INFORMASI 08',
-        sublabel: 'Pernyataan Narasumber',
-        content: '“Siswa tidak sekadar membuat kue yang enak, tetapi mampu menguasai ilmu kimia pangan lokal. Tekstur pastry mocaf ini sangat renyah, aromanya harum, dan memiliki nilai komersial tinggi di pasaran,” puji Chef Andira Kusuma, praktisi pastry hotel bintang lima.',
-        authorNote: 'Chef Andira Kusuma (Praktisi Pastry & Konsultan Kuliner)',
-        keywords: ['andira kusuma', 'pastry', 'kimia pangan', 'komersial', 'renyah']
+        sublabel: 'Pernyataan Narasumber (Kutipan Tokoh)',
+        content: '“Semua murid sangat disiplin memakai apron dan topi chef. Roti buatan mereka matang merata, aromanya harum, dan tekstur rotinya lembut sekali,” puji Ibu Chef Ratna selaku juri utama.',
+        authorNote: 'Ibu Chef Ratna (Guru Pembimbing Pastry & Bakery)',
+        keywords: ['chef ratna', 'apron', 'lembut', 'harum', 'disiplin', 'matang']
       }
     ],
     validation: {
       what: {
-        requiredKeywords: ['pameran', 'pastry', 'mocaf', 'kelor', 'inovasi', 'gluten', 'boga'],
-        hint: 'Peristiwa utamanya adalah pameran inovasi pastry sehat berbahan tepung mocaf dan daun kelor bebas gluten karya siswa.'
+        requiredKeywords: ['lomba', 'pastry', 'roti', 'membuat', 'kreasi', 'boga', 'adonan'],
+        hint: 'Peristiwa utamanya adalah lomba perdana membuat kreasi pastry dan roti manis di sekolah.'
       },
       who: {
-        requiredKeywords: ['36 murid', 'murid', 'siswa', 'smk negeri 3 magelang', 'kuliner', 'kelas xi'],
-        hint: 'Pihak yang terlibat adalah 36 murid kelas XI Kuliner SMKN 3 Magelang didampingi praktisi boga.'
+        requiredKeywords: ['siswa', 'murid', '30', 'kelas x', 'kuliner', 'ratna', 'guru', 'chef'],
+        hint: 'Pihak yang terlibat adalah 30 siswa kelas X Kuliner didampingi guru pembimbing Ibu Chef Ratna.'
       },
       when: {
-        requiredKeywords: ['kamis', '22', 'oktober', '2026'],
-        hint: 'Peristiwa berlangsung pada hari Kamis, 22 Oktober 2026.'
+        requiredKeywords: ['selasa', '14', 'oktober', '2026', 'pukul 08.00'],
+        hint: 'Lomba diadakan pada hari Selasa, 14 Oktober 2026 (pukul 08.00 - 12.00 WIB).'
       },
       where: {
-        requiredKeywords: ['laboratorium', 'dapur', 'smkn 3 magelang', 'magelang'],
-        hint: 'Lokasi kegiatan di Dapur Bakery & Pastry SMKN 3 Magelang.'
+        requiredKeywords: ['laboratorium', 'bakery', 'pastry', 'smk', 'sekolah'],
+        hint: 'Tempat lomba adalah di Laboratorium Bakery & Pastry SMK Negeri 1 Tata Boga.'
       },
       why: {
-        requiredKeywords: ['gandum', 'singkong', 'kelor', 'impor', 'diet', 'pangan', 'lokal', 'kesehatan'],
-        hint: 'Tujuannya menekan ketergantungan gandum impor dan memanfaatkan komoditas pangan lokal yang menyehatkan.'
+        requiredKeywords: ['latih', 'resep', 'ketelitian', 'proofing', 'fermentasi', 'keterampilan', 'kompetisi', 'dasar', 'tujuan'],
+        hint: 'Tujuan kegiatan untuk melatih ketelitian menakar resep, waktu proofing ragi, dan kecepatan kerja.'
       },
       how: {
-        requiredKeywords: ['formulasi', 'laminasi', 'adonan', 'memanggang', 'suhu', 'croissant', 'tekstur', 'mentega'],
-        hint: 'Jelaskan bagaimana siswa memformulasi adonan mocaf dan kelor, melaminasi adonan, serta memanggang pada suhu presisi 180°C.'
+        requiredKeywords: ['menguleni', 'kalis', 'adonan', 'oven', 'memanggang', 'panggang', 'suhu', 'proses', 'isi'],
+        hint: 'Prosesnya dimulai dari menguleni adonan hingga kalis, proofing hingga mengembang, memberi isian, lalu memanggang di oven 180°C.'
       }
     }
   },
@@ -115,100 +115,100 @@ export const NEWS_CASES: NewsCase[] = [
     caseNumber: '02',
     groupNumber: 2,
     groupName: 'Kelompok 2',
-    topicTitle: 'Juara LKS Tingkat Nasional: Siswa SMK Raih Medali Emas Berkat Kreasi Salmon Rawon Kecombrang',
-    category: 'Kompetisi & Prestasi Tata Boga',
-    overview: 'Keberhasilan gemilang tim siswa kuliner dalam menjuarai ajang Lomba Kompetensi Siswa (LKS) Nasional melalui sajian hidangan fusi tradisional modern.',
+    topicTitle: 'Inovasi Menu Kantin Sehat: Siswa Kuliner Sulap Salak Lokal Jadi Puding & Selai Bergizi',
+    category: 'Inovasi Kuliner & Olahan Buah Lokal',
+    overview: 'Inovasi kreatif siswa jurusan kuliner yang mengolah buah salak lokal melimpah menjadi menu camilan kantin sehat berupa selai dan puding lembut tanpa bahan pengawet buatan.',
     cards: [
       {
         id: 'c2-card-01',
         number: '01',
         label: 'KARTU INFORMASI 01',
-        sublabel: 'Laporan Peristiwa',
-        content: 'Tim siswa konsentrasi kuliner berhasil menorehkan prestasi membanggakan dengan merebut medali emas dalam ajang Lomba Kompetensi Siswa (LKS) SMK Tingkat Nasional Bidang Cooking (Keahlian Memasak).',
-        keywords: ['medali emas', 'lomba kompetensi siswa', 'lks', 'cooking', 'prestasi', 'juara']
+        sublabel: 'Peristiwa Utama (Bahan Judul & Teras Berita)',
+        content: 'Kantin SMK Negeri 2 Kuliner resmi meluncurkan menu baru berupa olahan selai dan puding salak sehat tanpa pemanis buatan hasil karya inovasi siswa jurusan kuliner.',
+        keywords: ['kantin', 'menu baru', 'salak', 'puding', 'selai', 'sehat', 'siswa kuliner']
       },
       {
         id: 'c2-card-02',
         number: '02',
         label: 'KARTU INFORMASI 02',
-        sublabel: 'Pihak Berprestasi',
-        content: 'Prestasi bergengsi ini diraih oleh dua siswa berbakat, yakni Fadhil Ramadhan dan Nabila Putri, perwakilan siswa kelas XII Konsentrasi Keahlian Kuliner SMK Negeri 5 Surakarta.',
-        keywords: ['fadhil', 'nabila', 'smk negeri 5 surakarta', 'murid', 'siswa', 'kelas xii']
+        sublabel: 'Pihak Terlibat (Siapa yang Terlibat)',
+        content: 'Produk camilan sehat ini dibuat oleh kelompok siswa kelas XI Kuliner 2 yang bekerja sama dengan pengelola kantin sekolah.',
+        keywords: ['siswa', 'murid', 'kelas xi', 'kuliner 2', 'pengelola kantin', 'kelompok']
       },
       {
         id: 'c2-card-03',
         number: '03',
         label: 'KARTU INFORMASI 03',
-        sublabel: 'Lokasi Pertandingan',
-        content: 'Babak final kompetisi memasak tingkat nasional ini dilangsungkan di Exhibition Hall Grand City Convention Center, Kota Surabaya, Jawa Timur.',
-        keywords: ['grand city', 'convention center', 'surabaya', 'jawa timur', 'hall']
+        sublabel: 'Lokasi Peristiwa (Di mana Berlangsung)',
+        content: 'Penjualan dan peluncuran menu berlangsung di stan Kantin Sehat Kejujuran Kampus SMK Negeri 2 Kuliner.',
+        keywords: ['kantin sehat', 'smk negeri 2 kuliner', 'stan', 'sekolah']
       },
       {
         id: 'c2-card-04',
         number: '04',
         label: 'KARTU INFORMASI 04',
-        sublabel: 'Waktu Pengumuman',
-        content: 'Sesi live cooking final berlangsung ketat dan penganugerahan juara resmi diumumkan pada hari Sabtu, 17 Oktober 2026, pukul 16.00 WIB.',
-        keywords: ['sabtu', '17 oktober 2026', 'oktober', '2026', '16.00']
+        sublabel: 'Waktu Peristiwa (Kapan Terjadi)',
+        content: 'Menu olahan salak ini pertama kali disajikan kepada warga sekolah pada hari Rabu, 15 Oktober 2026, tepat saat jam istirahat pertama pukul 09.30 WIB.',
+        keywords: ['rabu', '15 oktober 2026', 'oktober', '2026', '09.30', 'istirahat']
       },
       {
         id: 'c2-card-05',
         number: '05',
         label: 'KARTU INFORMASI 05',
-        sublabel: 'Alasan & Tujuan Kompetisi',
-        content: 'Keikutsertaan dalam kompetisi ini bertujuan menguji kematangan teknik memasak berstandar internasional, penguasaan manajemen waktu dapur, serta memperebutkan tiket seleksi perwakilan Indonesia pada WorldSkills Asia.',
-        keywords: ['standar internasional', 'manajemen waktu', 'worldskills', 'seleksi', 'kompetensi']
+        sublabel: 'Tujuan Kegiatan (Mengapa Diadakan)',
+        content: 'Inovasi ini bertujuan memanfaatkan hasil panen buah salak lokal petani sekitar sekolah yang melimpah, sekaligus menyediakan pilihan jajanan bergizi kaya serat bagi para murid.',
+        keywords: ['panen', 'salak lokal', 'petani', 'bergizi', 'serat', 'jajanan', 'tujuan']
       },
       {
         id: 'c2-card-06',
         number: '06',
         label: 'KARTU INFORMASI 06',
-        sublabel: 'Proses Memasak & Kreasi Menu',
-        content: 'Menghadapi bahan misteri (mystery black box) dalam durasi 90 menit, kedua siswa memasak hidangan fusion “Pan-seared Salmon Rawon Kecombrang” menggunakan teknik temperatur rendah (sous-vide) yang disajikan dengan reduksi bumbu kluwek pekat dan puree ubi jalar ungu.',
-        keywords: ['salmon', 'rawon', 'kecombrang', 'sous-vide', 'black box', '90 menit', 'kluwek']
+        sublabel: 'Proses Kerja (Bagaimana Jalannya)',
+        content: 'Siswa mengupas salak segar, memisahkan bijinya, memblender daging buah, lalu memasaknya bersama gula aren asli dan agar-agar rumput laut hingga mengental menjadi puding lembut dan selai roti.',
+        keywords: ['mengupas', 'blender', 'gula aren', 'agar-agar', 'mengental', 'memasak', 'proses']
       },
       {
         id: 'c2-card-07',
         number: '07',
         label: 'KARTU INFORMASI 07',
-        sublabel: 'Penilaian & Catatan Dewan Juri',
-        content: 'Tim SMKN 5 Surakarta mengungguli 34 finalis perwakilan provinsi dari seluruh pelosok tanah air dengan perolehan skor tertinggi 94,80 poin pada aspek cita rasa, higienitas kerja, dan kerapian penyajian.',
-        keywords: ['34 finalis', 'skor 94,80', 'poin', 'cita rasa', 'higienitas']
+        sublabel: 'Hasil Akhir (Fakta & Angka)',
+        content: 'Sebanyak 150 cup puding salak dan 50 botol selai ludes terjual dalam waktu 30 menit dengan harga terjangkau Rp3.000 per cup.',
+        keywords: ['150 cup', '50 botol', 'ludes', '30 menit', 'rp3.000', 'laris']
       },
       {
         id: 'c2-card-08',
         number: '08',
         label: 'KARTU INFORMASI 08',
-        sublabel: 'Pernyataan Narasumber',
-        content: '“Kematangan salmon sangat sempurna dan kuah rawon kluweknya berpadu harmonis dengan segarnya bunga kecombrang. Keterampilan teknik dan ketenangan kerja siswa ini benar-benar setara dengan chef restoran bintang lima,” puji Chef Chandra Wijaya, Ketua Dewan Juri Cooking LKS.',
-        authorNote: 'Chef Chandra Wijaya (Ketua Dewan Juri Cooking LKS Nasional)',
-        keywords: ['chandra wijaya', 'dewan juri', 'kematangan salmon', 'rawon', 'bintang lima']
+        sublabel: 'Pernyataan Narasumber (Kutipan Tokoh)',
+        content: '“Rasanya manis segar alami dan seratnya terasa. Siswa kuliner kita berhasil membuktikan bahwa buah salak lokal bisa jadi jajanan sekolah yang modern dan sehat,” kata Pak Haryanto, koordinator kantin sekolah.',
+        authorNote: 'Pak Haryanto (Koordinator Kantin Sehat Sekolah)',
+        keywords: ['haryanto', 'manis', 'segar', 'salak', 'modern', 'sehat', 'kantin']
       }
     ],
     validation: {
       what: {
-        requiredKeywords: ['emas', 'lks', 'lomba', 'cooking', 'juara', 'salmon', 'rawon', 'prestasi', 'kompetisi'],
-        hint: 'Peristiwa utamanya adalah kemenangan meraih medali emas LKS Nasional Bidang Cooking melalui kreasi Salmon Rawon Kecombrang.'
+        requiredKeywords: ['salak', 'kantin', 'puding', 'selai', 'menu', 'sehat', 'olahan', 'inovasi'],
+        hint: 'Peristiwa utamanya adalah peluncuran menu kantin sehat berupa puding dan selai olahan buah salak lokal.'
       },
       who: {
-        requiredKeywords: ['fadhil', 'nabila', 'smk negeri 5 surakarta', 'murid', 'siswa', 'tim'],
-        hint: 'Pihak yang terlibat adalah Fadhil Ramadhan dan Nabila Putri dari SMKN 5 Surakarta.'
+        requiredKeywords: ['siswa', 'murid', 'kelas xi', 'kuliner', 'haryanto', 'pengelola'],
+        hint: 'Pihak yang terlibat adalah siswa kelas XI Kuliner 2 bersama pengelola kantin sekolah.'
       },
       when: {
-        requiredKeywords: ['sabtu', '17', 'oktober', '2026'],
-        hint: 'Peristiwa pengumuman juara pada hari Sabtu, 17 Oktober 2026.'
+        requiredKeywords: ['rabu', '15', 'oktober', '2026', '09.30'],
+        hint: 'Peristiwa terjadi pada hari Rabu, 15 Oktober 2026 (pukul 09.30 WIB saat istirahat).'
       },
       where: {
-        requiredKeywords: ['grand city', 'surabaya', 'convention center', 'jawa timur'],
-        hint: 'Lokasi kompetisi di Exhibition Hall Grand City Convention Center Surabaya.'
+        requiredKeywords: ['kantin', 'smk negeri 2 kuliner', 'sekolah'],
+        hint: 'Lokasi peluncuran berada di Kantin Sehat SMK Negeri 2 Kuliner.'
       },
       why: {
-        requiredKeywords: ['worldskills', 'standar', 'kompetensi', 'internasional', 'uji', 'prestasi'],
-        hint: 'Tujuannya menguji kompetensi teknik memasak berstandar global dan memperebutkan tiket seleksi WorldSkills Asia.'
+        requiredKeywords: ['panen', 'salak', 'lokal', 'petani', 'gizi', 'serat', 'sehat', 'jajanan', 'tujuan'],
+        hint: 'Alasannya untuk memanfaatkan panen salak lokal yang melimpah dan menyediakan jajanan kaya serat.'
       },
       how: {
-        requiredKeywords: ['salmon', 'rawon', 'sous-vide', 'black box', '90 menit', 'kluwek', 'kecombrang'],
-        hint: 'Jelaskan bagaimana siswa mengolah bahan misteri selama 90 menit dengan teknik sous-vide salmon dan saus rawon kluwek.'
+        requiredKeywords: ['kupas', 'blender', 'masak', 'gula aren', 'agar-agar', 'aduk', 'proses', 'rebus'],
+        hint: 'Caranya dengan mengupas salak, memblender daging buah, lalu memasaknya dengan gula aren dan agar-agar hingga mengental.'
       }
     }
   },
@@ -221,100 +221,100 @@ export const NEWS_CASES: NewsCase[] = [
     caseNumber: '03',
     groupNumber: 3,
     groupName: 'Kelompok 3',
-    topicTitle: 'Standar Kebersihan Dunia Industri: Dapur Boga SMK Raih Sertifikasi Keamanan Pangan HACCP Bintang Tiga',
-    category: 'Sanitasi, Higienitas & Keamanan Pangan',
-    overview: 'Pemberian sertifikasi kelayakan higiene dan manajemen keamanan pangan bertaraf internasional untuk laboratorium dapur praktik siswa.',
+    topicTitle: 'Kunjungan Industri Siswa Kuliner: Belajar Olah Bumbu Opor & Standar Dapur Restoran Tradisional',
+    category: 'Kunjungan Industri & Kuliner Nusantara',
+    overview: 'Pengalaman berharga siswa SMK Kuliner dalam kunjungan industri ke Restoran Tradisional untuk mempelajari racikan bumbu rempah warisan dan alur kerja dapur komersial.',
     cards: [
       {
         id: 'c3-card-01',
         number: '01',
         label: 'KARTU INFORMASI 01',
-        sublabel: 'Laporan Peristiwa',
-        content: 'Laboratorium Dapur Produksi Kuliner sekolah kejuruan secara resmi menerima pengakuan Sertifikasi Keamanan Pangan Hazard Analysis Critical Control Point (HACCP) Tingkat Bintang Tiga dari badan sertifikasi mutu pangan independen.',
-        keywords: ['sertifikasi', 'keamanan pangan', 'haccp', 'bintang tiga', 'laboratorium dapur', 'higienitas']
+        sublabel: 'Peristiwa Utama (Bahan Judul & Teras Berita)',
+        content: 'Siswa SMK Kuliner melaksanakan kunjungan industri ke Restoran Dapur Nusantara untuk mempelajari teknik meracik bumbu opor tradisional serta standar kebersihan dapur komersial.',
+        keywords: ['kunjungan industri', 'siswa kuliner', 'dapur nusantara', 'opor', 'bumbu', 'restoran']
       },
       {
         id: 'c3-card-02',
         number: '02',
         label: 'KARTU INFORMASI 02',
-        sublabel: 'Pihak Terlibat',
-        content: 'Penetapan predikat ini diraih berkat dedikasi 120 murid kejuruan kuliner bersama jajaran guru instruktur tata boga SMK Negeri 1 Cirebon yang didampingi langsung oleh tim auditor Badan Pengawas Obat dan Makanan (BPOM).',
-        keywords: ['120 murid', 'guru', 'smk negeri 1 cirebon', 'bpom', 'auditor', 'siswa']
+        sublabel: 'Pihak Terlibat (Siapa yang Terlibat)',
+        content: 'Kegiatan ini diikuti oleh 45 siswa kelas XI Konsentrasi Kuliner didampingi 3 guru pembimbing boga, dan dipandu langsung oleh Head Chef Budi Santoso.',
+        keywords: ['45 siswa', 'siswa', 'kelas xi', 'kuliner', 'guru', 'budi santoso', 'head chef']
       },
       {
         id: 'c3-card-03',
         number: '03',
         label: 'KARTU INFORMASI 03',
-        sublabel: 'Lokasi Fasilitas',
-        content: 'Pemeriksaan audit dan penyerahan piagam akreditasi diselenggarakan di Kompleks Dapur Pengolahan Komersial Teaching Factory SMKN 1 Cirebon, Jawa Barat.',
-        keywords: ['dapur pengolahan', 'smkn 1 cirebon', 'cirebon', 'jawa barat']
+        sublabel: 'Lokasi Peristiwa (Di mana Berlangsung)',
+        content: 'Kunjungan dilaksanakan di Restoran Tradisional Dapur Nusantara Heritage yang berlokasi di kawasan cagar budaya Kota Lama.',
+        keywords: ['restoran', 'dapur nusantara', 'heritage', 'kota lama', 'lokasi']
       },
       {
         id: 'c3-card-04',
         number: '04',
         label: 'KARTU INFORMASI 04',
-        sublabel: 'Waktu Pengesahan',
-        content: 'Audit verifikasi lapangan rampung dan piagam sertifikat resmi diserahkan pada hari Selasa, 10 November 2026, pukul 10.00 WIB.',
-        keywords: ['selasa', '10 november 2026', 'november', '2026', '10.00']
+        sublabel: 'Waktu Peristiwa (Kapan Terjadi)',
+        content: 'Acara kunjungan belajar industri berlangsung pada hari Kamis, 16 Oktober 2026, mulai pukul 09.00 sampai 14.00 WIB.',
+        keywords: ['kamis', '16 oktober 2026', 'oktober', '2026', '09.00']
       },
       {
         id: 'c3-card-05',
         number: '05',
         label: 'KARTU INFORMASI 05',
-        sublabel: 'Alasan & Tujuan Sertifikasi',
-        content: 'Sertifikasi HACCP ini diraih guna memastikan makanan olahan praktik siswa bebas kontaminasi bakteri bahaya, sekaligus memberi jaminan keahlian higienitas bersertifikat bagi siswa saat bekerja di dapur hotel dan maskapai penerbangan internasional.',
-        keywords: ['bebas kontaminasi', 'bakteri', 'hotel', 'maskapai', 'sertifikat kompetensi', 'higienitas']
+        sublabel: 'Tujuan Kegiatan (Mengapa Diadakan)',
+        content: 'Tujuannya adalah mengenalkan siswa pada ritme kerja nyata dapur restoran profesional dan menjaga kelestarian teknik mengolah bumbu rempah asli Indonesia.',
+        keywords: ['tujuan', 'alur kerja', 'dapur restoran', 'profesional', 'rempah', 'melestarikan']
       },
       {
         id: 'c3-card-06',
         number: '06',
         label: 'KARTU INFORMASI 06',
-        sublabel: 'Prosedur & Disiplin Kerja',
-        content: 'Siswa menerapkan sistem zonasi warna talenan pemotong (merah daging, biru seafood, hijau sayur), monitoring temperatur lemari pendingin di bawah 4 derajat Celsius, teknik mencuci tangan enam langkah, serta mengenakan seragam koki steril lengkap dengan hairnet dan sepatu keselamatan.',
-        keywords: ['talenan', 'zonasi warna', 'suhu 4 derajat', 'cuci tangan', 'hairnet', 'steril', 'sepatu']
+        sublabel: 'Proses Kerja (Bagaimana Jalannya)',
+        content: 'Siswa diajak berkeliling mengamati area dapur panas (hot kitchen), praktik menumis bumbu dasar putih secara tepat, serta mempraktikkan teknik plating masakan tradisional dengan daun pisang.',
+        keywords: ['hot kitchen', 'menumis', 'bumbu putih', 'plating', 'daun pisang', 'proses']
       },
       {
         id: 'c3-card-07',
         number: '07',
         label: 'KARTU INFORMASI 07',
-        sublabel: 'Hasil Uji Laboratorium',
-        content: 'Hasil uji usap (swab test) mikrobiologi terhadap 60 titik meja stainless steel, pisau, dan telapak tangan siswa menunjukkan angka kontaminasi bakteri nol (zero bacterial contamination) yang memenuhi standar industri makanan global.',
-        keywords: ['swab test', 'mikrobiologi', 'zero contamination', '60 titik', 'stainless steel']
+        sublabel: 'Hasil Akhir (Fakta & Angka)',
+        content: 'Seluruh siswa berhasil memasak uji coba 15 porsi opor ayam rempah sesuai standar restoran dan memperoleh sertifikat pengalaman industri.',
+        keywords: ['15 porsi', 'opor ayam', 'standar restoran', 'sertifikat', 'hasil']
       },
       {
         id: 'c3-card-08',
         number: '08',
         label: 'KARTU INFORMASI 08',
-        sublabel: 'Pernyataan Narasumber',
-        content: '“Sangat jarang fasilitas dapur sekolah memiliki kedisiplinan rantai dingin dan pencegahan kontaminasi silang seketat ini. Murid-murid SMKN 1 Cirebon telah siap bekerja di dapur profesional mana pun di dunia,” ujar Dr. Hendro Susanto, Auditor Utama Keamanan Pangan.',
-        authorNote: 'Dr. Hendro Susanto (Auditor Utama Lembaga Sertifikasi Keamanan Pangan)',
-        keywords: ['hendro susanto', 'auditor', 'kontaminasi silang', 'rantai dingin', 'profesional']
+        sublabel: 'Pernyataan Narasumber (Kutipan Tokoh)',
+        content: '“Dapur komersial menuntut kecepatan tangan, konsistensi takaran rasa, dan kebersihan prima. Murid SMK Kuliner ini menunjukkan semangat kerja yang sangat bagus,” jelas Chef Budi Santoso.',
+        authorNote: 'Chef Budi Santoso (Head Chef Restoran Dapur Nusantara)',
+        keywords: ['budi santoso', 'kecepatan', 'kebersihan', 'semangat', 'rasa', 'chef']
       }
     ],
     validation: {
       what: {
-        requiredKeywords: ['sertifikasi', 'keamanan pangan', 'haccp', 'bintang tiga', 'dapur', 'higienitas', 'sanitasi'],
-        hint: 'Peristiwa utamanya adalah keberhasilan Dapur Boga SMKN 1 Cirebon meraih sertifikasi keamanan pangan HACCP Bintang Tiga.'
+        requiredKeywords: ['kunjungan', 'industri', 'restoran', 'bumbu', 'opor', 'dapur', 'belajar'],
+        hint: 'Peristiwa utamanya adalah kunjungan industri siswa kuliner ke restoran tradisional untuk belajar racikan bumbu dan manajemen dapur.'
       },
       who: {
-        requiredKeywords: ['120 murid', 'murid', 'siswa', 'smk negeri 1 cirebon', 'bpom', 'guru'],
-        hint: 'Pihak yang terlibat adalah 120 murid kuliner SMKN 1 Cirebon bersama guru pembimbing dan tim auditor BPOM.'
+        requiredKeywords: ['45', 'siswa', 'murid', 'kelas xi', 'budi santoso', 'chef', 'guru'],
+        hint: 'Pihak yang terlibat adalah 45 siswa kelas XI Kuliner dan Head Chef Budi Santoso.'
       },
       when: {
-        requiredKeywords: ['selasa', '10', 'november', '2026'],
-        hint: 'Peristiwa peresmian sertifikasi berlangsung pada Selasa, 10 November 2026.'
+        requiredKeywords: ['kamis', '16', 'oktober', '2026', '09.00'],
+        hint: 'Kunjungan dilakukan pada hari Kamis, 16 Oktober 2026 (pukul 09.00 - 14.00 WIB).'
       },
       where: {
-        requiredKeywords: ['dapur', 'smkn 1 cirebon', 'cirebon', 'laboratorium'],
-        hint: 'Lokasi di Laboratorium Dapur Produksi SMKN 1 Cirebon.'
+        requiredKeywords: ['restoran', 'dapur nusantara', 'kota lama'],
+        hint: 'Lokasi di Restoran Tradisional Dapur Nusantara Heritage, kawasan Kota Lama.'
       },
       why: {
-        requiredKeywords: ['kontaminasi', 'bakteri', 'keamanan', 'higienitas', 'industri', 'hotel', 'standar'],
-        hint: 'Tujuannya memastikan produk bebas kontaminasi bakteri dan membekali siswa standar kebersihan industri perhotelan.'
+        requiredKeywords: ['alur', 'kerja', 'profesional', 'rempah', 'restoran', 'lestari', 'tujuan', 'nyata'],
+        hint: 'Tujuannya untuk mengenalkan ritme kerja dapur restoran profesional dan melestarikan bumbu rempah tradisional.'
       },
       how: {
-        requiredKeywords: ['talenan', 'warna', 'suhu', 'cuci tangan', 'hairnet', 'zonasi', 'chiller', 'steril'],
-        hint: 'Jelaskan bagaimana siswa menerapkan pemisahan talenan warna-warni, menjaga suhu pendingin di bawah 4°C, dan sanitasi ketat.'
+        requiredKeywords: ['keliling', 'hot kitchen', 'menumis', 'bumbu', 'plating', 'daun pisang', 'proses', 'praktik'],
+        hint: 'Prosesnya meliputi mengamati hot kitchen, belajar menumis bumbu dasar putih, dan praktik plating daun pisang.'
       }
     }
   },
@@ -327,100 +327,100 @@ export const NEWS_CASES: NewsCase[] = [
     caseNumber: '04',
     groupNumber: 4,
     groupName: 'Kelompok 4',
-    topicTitle: 'Kewirausahaan Siswa Boga: Food Truck Siswa SMK Raup Omzet Rp15 Juta dalam Sepekan',
-    category: 'Teaching Factory & Bisnis Kuliner Modern',
-    overview: 'Keberhasilan proyek kewirausahaan siswa boga dalam mengoperasikan unit food truck komersial dengan sajian menu kekinian bernilai jual tinggi.',
+    topicTitle: 'Aksi Dapur Higienis: Siswa SMK Kuliner Terapkan Standar Sanitasi Ketat Sebelum Praktik',
+    category: 'Sanitasi & Keamanan Pangan Dapur',
+    overview: 'Penerapan disiplin sanitasi dan keamanan pangan oleh siswa SMK Kuliner, mulai dari sterilisasi meja kerja stainless steel, pemisahan talenan warna, hingga mencuci tangan sesuai SOP.',
     cards: [
       {
         id: 'c4-card-01',
         number: '01',
         label: 'KARTU INFORMASI 01',
-        sublabel: 'Laporan Peristiwa',
-        content: 'Inisiatif bisnis kuliner mobile berbasis food truck bertajuk “Boga Rasa Wheels” yang dioperasikan sepenuhnya oleh siswa kejuruan sukses membukukan total omzet penjualan mencapai Rp15,4 juta dalam pekan pertama operasionalnya.',
-        keywords: ['food truck', 'boga rasa wheels', 'omzet', '15 juta', 'bisnis kuliner', 'kewirausahaan']
+        sublabel: 'Peristiwa Utama (Bahan Judul & Teras Berita)',
+        content: 'Siswa SMK Kuliner melaksanakan aksi serentak penerapan Dapur Higienis (Hygienic Kitchen) untuk memastikan seluruh area memasak dan peralatan steril sebelum ujian praktik boga.',
+        keywords: ['aksi', 'dapur higienis', 'sanitasi', 'steril', 'ujian praktik', 'siswa kuliner']
       },
       {
         id: 'c4-card-02',
         number: '02',
         label: 'KARTU INFORMASI 02',
-        sublabel: 'Pihak Pengelola',
-        content: 'Unit usaha keliling ini digerakkan secara bergiliran oleh 24 murid kelas XII Konsentrasi Kuliner SMK Negeri 2 Boyolali yang tergabung dalam program Teaching Factory (TEFA) Boga Mandiri.',
-        keywords: ['24 murid', 'siswa', 'kelas xii', 'smk negeri 2 boyolali', 'tefa', 'kuliner']
+        sublabel: 'Pihak Terlibat (Siapa yang Terlibat)',
+        content: 'Kegiatan ini dijalankan oleh seluruh 32 murid kelas XII Kuliner 1 di bawah pengawasan instruktur keamanan pangan sekolah, Ibu Maya.',
+        keywords: ['32 murid', 'siswa', 'kelas xii', 'kuliner 1', 'ibu maya', 'instruktur']
       },
       {
         id: 'c4-card-03',
         number: '03',
         label: 'KARTU INFORMASI 03',
-        sublabel: 'Lokasi Operasional',
-        content: 'Food truck siswa mangkal melayani pesanan di kawasan pusat keramaian Taman Pandanaran dan Alun-Alun Kidul Boyolali, Jawa Tengah.',
-        keywords: ['taman pandanaran', 'alun-alun kidul', 'boyolali', 'jawa tengah']
+        sublabel: 'Lokasi Peristiwa (Di mana Berlangsung)',
+        content: 'Aksi sanitasi ini berlangsung di Ruang Dapur Utama Pengolahan Makanan SMK Negeri 1 Pelita Kuliner.',
+        keywords: ['dapur utama', 'pengolahan makanan', 'smk negeri 1 pelita kuliner', 'ruang']
       },
       {
         id: 'c4-card-04',
         number: '04',
         label: 'KARTU INFORMASI 04',
-        sublabel: 'Waktu Pelaksanaan',
-        content: 'Puncak penjualan teramai tercatat saat kegiatan Car Free Day pada hari Minggu, 15 November 2026, mulai pukul 06.00 hingga 11.30 WIB.',
-        keywords: ['minggu', '15 november 2026', 'november', '2026', 'car free day', '06.00']
+        sublabel: 'Waktu Peristiwa (Kapan Terjadi)',
+        content: 'Pemeriksaan dan sterilisasi dapur dilaksanakan pada hari Senin, 20 Oktober 2026, mulai pukul 07.15 hingga 08.30 WIB sebelum kompor dinyalakan.',
+        keywords: ['senin', '20 oktober 2026', 'oktober', '2026', '07.15']
       },
       {
         id: 'c4-card-05',
         number: '05',
         label: 'KARTU INFORMASI 05',
-        sublabel: 'Tujuan Program',
-        content: 'Proyek food truck ini dirancang guna melatih keterampilan nyata murid dalam kalkulasi biaya bahan (food costing), manajemen kasir digital, ketahanan mental wirausaha, serta kemampuan komunikasi langsung melayani pelanggan perkotaan.',
-        keywords: ['food costing', 'wirausaha', 'kasir digital', 'pelanggan', 'teaching factory', 'mental']
+        sublabel: 'Tujuan Kegiatan (Mengapa Diadakan)',
+        content: 'Langkah ini dilakukan untuk mencegah kontaminasi silang bakteri pada hidangan dan membiasakan siswa mematuhi standar kebersihan industri perhotelan bintang lima.',
+        keywords: ['kontaminasi silang', 'bakteri', 'kebersihan', 'standar industri', 'hotel', 'tujuan']
       },
       {
         id: 'c4-card-06',
         number: '06',
         label: 'KARTU INFORMASI 06',
-        sublabel: 'Sistem Kerja & Menu Andalan',
-        content: 'Para murid bertugas terbagi dalam tim juru masak (line cook), barista peracik minuman, kasir pembayaran QRIS digital, serta pramuniaga dengan menyajikan menu signature rice bowl ayam asap rempah Boyolali dan artisan iced butterfly pea tea.',
-        keywords: ['ayam asap', 'rice bowl', 'artisan tea', 'qris', 'barista', 'line cook', 'kasir']
+        sublabel: 'Proses Kerja (Bagaimana Jalannya)',
+        content: 'Siswa menyemprot meja stainless steel dengan cairan pembersih food-grade, memisahkan talenan warna merah untuk daging mentah dan hijau untuk sayuran, serta mencuci tangan 6 langkah memakai sabun antiseptik.',
+        keywords: ['stainless steel', 'talenan merah', 'talenan hijau', 'cuci tangan', 'antiseptik', 'prosedur']
       },
       {
         id: 'c4-card-07',
         number: '07',
         label: 'KARTU INFORMASI 07',
-        sublabel: 'Data Transaksi & Profit',
-        content: 'Tercatat sebanyak 460 porsi makanan utama dan 380 gelas minuman ludes terjual dalam sepekan, menghasilkan keuntungan laba bersih (net profit) sebesar 34 persen setelah dikurangi seluruh biaya bahan baku.',
-        keywords: ['460 porsi', '380 gelas', 'laba bersih', '34 persen', 'transaksi']
+        sublabel: 'Hasil Akhir (Fakta & Angka)',
+        content: 'Hasil audit kebersihan menunjukkan nilai sempurna skor 100 persen tanpa adanya sisa kotoran atau sisa minyak pada 12 unit kompor praktik.',
+        keywords: ['skor 100', 'sempurna', '12 unit kompor', 'audit', 'bersih']
       },
       {
         id: 'c4-card-08',
         number: '08',
         label: 'KARTU INFORMASI 08',
-        sublabel: 'Pernyataan Narasumber',
-        content: '“Kami belajar bahwa memasak hanya separuh dari bisnis kuliner. Yang paling menantang adalah menjaga konsistensi rasa saat antrean mengular dan mengelola arus kas harian tanpa selisih,” ungkap Dimas Bagus Pamungkas, ketua koordinator tim siswa food truck.',
-        authorNote: 'Dimas Bagus Pamungkas (Ketua Tim Pengelola Siswa Food Truck)',
-        keywords: ['dimas bagus', 'arus kas', 'konsistensi rasa', 'antrean', 'siswa']
+        sublabel: 'Pernyataan Narasumber (Kutipan Tokoh)',
+        content: '“Di dunia kuliner profesional, hidangan lezat tidak ada artinya jika dapurnya kotor. Kebersihan pisau dan talenan adalah kunci utama keselamatan konsumen,” tegas Ibu Maya.',
+        authorNote: 'Ibu Maya (Instruktur Sanitasi & Higiene Kuliner)',
+        keywords: ['ibu maya', 'lezat', 'kebersihan', 'pisau', 'talenan', 'keselamatan', 'konsumen']
       }
     ],
     validation: {
       what: {
-        requiredKeywords: ['food truck', 'omzet', 'boga rasa', 'bisnis', 'kuliner', 'kewirausahaan', 'penjualan'],
-        hint: 'Peristiwa utamanya adalah keberhasilan operasional food truck siswa SMKN 2 Boyolali yang meraup omzet belasan juta.'
+        requiredKeywords: ['sanitasi', 'higienis', 'dapur', 'kebersihan', 'steril', 'keamanan', 'pangan'],
+        hint: 'Peristiwa utamanya adalah aksi penerapan standar sanitasi dapur higienis sebelum kegiatan praktik memasak.'
       },
       who: {
-        requiredKeywords: ['24 murid', 'murid', 'siswa', 'smk negeri 2 boyolali', 'tefa', 'dimas'],
-        hint: 'Dikelola oleh 24 murid kelas XII Kuliner SMK Negeri 2 Boyolali.'
+        requiredKeywords: ['32', 'siswa', 'murid', 'kelas xii', 'maya', 'instruktur', 'guru'],
+        hint: 'Pihak yang terlibat adalah 32 siswa kelas XII Kuliner 1 bersama instruktur Ibu Maya.'
       },
       when: {
-        requiredKeywords: ['minggu', '15', 'november', '2026'],
-        hint: 'Puncak penjualan berlangsung pada hari Minggu, 15 November 2026.'
+        requiredKeywords: ['senin', '20', 'oktober', '2026', '07.15'],
+        hint: 'Kegiatan berlangsung pada hari Senin, 20 Oktober 2026 (pukul 07.15 - 08.30 WIB).'
       },
       where: {
-        requiredKeywords: ['taman pandanaran', 'alun-alun', 'boyolali'],
-        hint: 'Berlokasi di Taman Pandanaran dan Alun-Alun Kidul Boyolali.'
+        requiredKeywords: ['dapur', 'smk', 'pelita kuliner', 'ruang'],
+        hint: 'Lokasi di Dapur Utama Praktik Tata Boga SMK Negeri 1 Pelita Kuliner.'
       },
       why: {
-        requiredKeywords: ['wirausaha', 'food costing', 'pelanggan', 'bisnis', 'teaching factory', 'kewirausahaan'],
-        hint: 'Tujuannya melatih keterampilan berwirausaha, kalkulasi food costing, dan melayani pembeli secara langsung.'
+        requiredKeywords: ['kontaminasi', 'bakteri', 'bersih', 'standar', 'hotel', 'industri', 'tujuan', 'aman'],
+        hint: 'Tujuannya mencegah kontaminasi silang bakteri dan melatih standar kebersihan hotel berbintang.'
       },
       how: {
-        requiredKeywords: ['rice bowl', 'ayam asap', 'qris', 'barista', 'masak', 'food truck', 'antrean'],
-        hint: 'Jelaskan bagaimana siswa membagi tugas memasak menu rice bowl, menyajikan minuman artisan, dan transaksi kasir QRIS.'
+        requiredKeywords: ['meja', 'talenan', 'merah', 'hijau', 'cuci tangan', 'semprot', 'sabun', 'stainless', 'proses'],
+        hint: 'Prosedurnya dengan sterilisasi meja stainless steel, pemisahan talenan warna merah dan hijau, serta cuci tangan 6 langkah.'
       }
     }
   },
@@ -433,100 +433,100 @@ export const NEWS_CASES: NewsCase[] = [
     caseNumber: '05',
     groupNumber: 5,
     groupName: 'Kelompok 5',
-    topicTitle: 'Sukses Jalani PKL Industri: 18 Siswa SMK Kuliner Dipercaya Mengelola Jamuan Gala Dinner 40 Duta Besar',
-    category: 'Praktik Kerja Lapangan & Fine Dining',
-    overview: 'Pengalaman murid kejuruan boga yang sedang menjalani Praktik Kerja Lapangan (PKL) dipercaya menangani jamuan resmi makan malam diplomatik tamu kenegaraan di hotel bintang lima.',
+    topicTitle: 'Pameran Masterpiece Boga: Siswa SMK Tampilkan Seni Plating Makanan Penutup Nusantara yang Memukau',
+    category: 'Pameran Karya & Seni Plating Kuliner',
+    overview: 'Ajang pameran karya hidangan penutup (dessert) masterpiece karya siswa boga dengan keahlian tata hidang modern, hiasan gula karamel, dan garnish menawan.',
     cards: [
       {
         id: 'c5-card-01',
         number: '01',
         label: 'KARTU INFORMASI 01',
-        sublabel: 'Laporan Peristiwa',
-        content: 'Sebanyak 18 siswa kejuruan kuliner yang tengah menjalani Praktik Kerja Lapangan (PKL) menuai apresiasi tinggi setelah sukses mengelola jamuan makan malam resmi (Gala Dinner) kenegaraan bertaraf internasional.',
-        keywords: ['gala dinner', 'pkl', 'praktik kerja lapangan', 'duta besar', 'jamuan', 'diplomatik']
+        sublabel: 'Peristiwa Utama (Bahan Judul & Teras Berita)',
+        content: 'Pameran tahunan bertajuk “Masterpiece Boga Nusantara” sukses digelar dengan menampilkan aneka kreasi seni tata hidang (food plating) kue tradisional bergaya modern karya siswa SMK.',
+        keywords: ['pameran', 'masterpiece boga', 'plating', 'kue tradisional', 'tata hidang', 'siswa']
       },
       {
         id: 'c5-card-02',
         number: '02',
         label: 'KARTU INFORMASI 02',
-        sublabel: 'Pihak Terlibat',
-        content: 'Para siswa merupakan murid kelas XII Konsentrasi Keahlian Kuliner SMK Negeri 57 Jakarta yang magang di bawah arahan langsung Executive Chef hotel bintang lima bertaraf internasional.',
-        keywords: ['18 siswa', 'siswa', 'murid', 'smk negeri 57 jakarta', 'executive chef', 'magang']
+        sublabel: 'Pihak Terlibat (Siapa yang Terlibat)',
+        content: 'Pameran ini diikuti oleh 28 siswa tingkat akhir jurusan Tata Boga serta dihadiri dewan juri tamu dari perwakilan hotel bintang empat.',
+        keywords: ['28 siswa', 'siswa', 'tata boga', 'dewan juri', 'hotel', 'peserta']
       },
       {
         id: 'c5-card-03',
         number: '03',
         label: 'KARTU INFORMASI 03',
-        sublabel: 'Lokasi Acara',
-        content: 'Perjamuan makan malam diplomatik diselenggarakan di Grand Ballroom The Heritage Hotel Jakarta, kawasan Jakarta Selatan.',
-        keywords: ['grand ballroom', 'the heritage hotel', 'jakarta selatan', 'hotel']
+        sublabel: 'Lokasi Peristiwa (Di mana Berlangsung)',
+        content: 'Karya-karya hidangan cantik ini dipamerkan di Aula Utama dan Galeri Kuliner SMK Karya Boga Indah.',
+        keywords: ['aula utama', 'galeri kuliner', 'smk karya boga indah', 'sekolah']
       },
       {
         id: 'c5-card-04',
         number: '04',
         label: 'KARTU INFORMASI 04',
-        sublabel: 'Waktu Pelaksanaan',
-        content: 'Gala dinner penyambutan delegasi diplomatik berlangsung khidmat pada hari Jumat malam, 20 November 2026, mulai pukul 19.00 sampai 22.30 WIB.',
-        keywords: ['jumat', '20 november 2026', 'november', '2026', '19.00']
+        sublabel: 'Waktu Peristiwa (Kapan Terjadi)',
+        content: 'Pameran spektakuler ini dibuka pada hari Jumat, 24 Oktober 2026, mulai pukul 09.00 sampai 15.00 WIB.',
+        keywords: ['jumat', '24 oktober 2026', 'oktober', '2026', '09.00']
       },
       {
         id: 'c5-card-05',
         number: '05',
         label: 'KARTU INFORMASI 05',
-        sublabel: 'Tujuan & Arti Penting',
-        content: 'Penugasan siswa magang dalam acara kenegaraan ini bertujuan membuktikan kesiapan kompetensi lulusan SMK dalam mematuhi standar operasional prosedur (SOP) perjamuan mewah (fine dining) yang menuntut presisi tanpa cela.',
-        keywords: ['fine dining', 'sop', 'presisi', 'standar perhotelan', 'kompetensi', 'kenegaraan']
+        sublabel: 'Tujuan Kegiatan (Mengapa Diadakan)',
+        content: 'Acara ini bertujuan menguji kemampuan artistik siswa dalam menyajikan makanan tradisional agar memiliki daya tarik visual mewah layaknya hidangan restoran fine dining.',
+        keywords: ['artistik', 'visual', 'mewah', 'fine dining', 'tata hidang', 'tujuan']
       },
       {
         id: 'c5-card-06',
         number: '06',
         label: 'KARTU INFORMASI 06',
-        sublabel: 'Dinamika Dapur & Menu Sajian',
-        content: 'Siswa dibagi ke dalam brigade dapur: divisi Cold Kitchen menyiapkan hidangan pembuka Scallop Asam Kandis, divisi Main Course mematangkan 120 porsi Beef Tenderloin Bumbu Maranggi, serta divisi Pastry menyusun penataan (plating) cokelat ganache emas secara serentak dalam hitungan detik.',
-        keywords: ['cold kitchen', 'main course', 'pastry', 'plating', 'tenderloin', 'brigade dapur', 'scallop']
+        sublabel: 'Proses Kerja (Bagaimana Jalannya)',
+        content: 'Siswa mengolah kue klepon dan getuk singkong, lalu menata hidangan di atas piring porselen putih menggunakan saus gula aren cair berbentuk lingkaran artistik dan garnish daun mint segar.',
+        keywords: ['klepon', 'getuk', 'piring', 'saus gula aren', 'garnish', 'daun mint', 'proses']
       },
       {
         id: 'c5-card-07',
         number: '07',
         label: 'KARTU INFORMASI 07',
-        sublabel: 'Apresiasi Tamu Diplomatik',
-        content: 'Jamuan makan lima babak (5-course meal) yang disajikan kepada 40 Duta Besar negara sahabat menuai tepuk tangan kehormatan (standing ovation), hingga seluruh 18 siswa magang langsung ditawari kontrak kerja profesional setelah lulus.',
-        keywords: ['40 duta besar', '5-course', 'standing ovation', 'kontrak kerja', 'diplomat']
+        sublabel: 'Hasil Akhir (Fakta & Angka)',
+        content: 'Sebanyak 28 karya hidangan dinilai oleh juri, dan menu “Klepon Lava Tart” karya siswi bernama Salsabila terpilih sebagai karya terfavorit dengan nilai 95.',
+        keywords: ['28 karya', 'klepon lava tart', 'salsabila', 'terfavorit', 'nilai 95']
       },
       {
         id: 'c5-card-08',
         number: '08',
         label: 'KARTU INFORMASI 08',
-        sublabel: 'Pernyataan Narasumber',
-        content: '“Di dapur fine dining perhotelan, kesalahan satu detik bisa merusak hidangan. Murid SMK ini menunjukkan ketenangan, teknik pemotongan presisi, dan etos kerja yang setara dengan staf senior,” puji Chef Guillaume Pierre, Executive Chef The Heritage Hotel.',
-        authorNote: 'Chef Guillaume Pierre (Executive Chef The Heritage Hotel Jakarta)',
-        keywords: ['guillaume pierre', 'executive chef', 'presisi', 'fine dining', 'etos kerja']
+        sublabel: 'Pernyataan Narasumber (Kutipan Tokoh)',
+        content: '“Presentasi piringnya sangat berkelas dunia. Makanan tradisional yang biasanya sederhana berhasil diangkat menjadi sajian mewah yang memesona,” puji Pak Hendra, chef eksekutif juri tamu.',
+        authorNote: 'Chef Hendra (Eksekutif Chef Hotel Bintang Empat)',
+        keywords: ['chef hendra', 'berkelas dunia', 'sajian mewah', 'plating', 'memesona']
       }
     ],
     validation: {
       what: {
-        requiredKeywords: ['gala dinner', 'pkl', 'magang', 'jamuan', 'duta besar', 'diplomatik', 'fine dining'],
-        hint: 'Peristiwa utamanya adalah kesuksesan 18 siswa SMK saat PKL mengelola jamuan gala dinner 40 duta besar negara sahabat.'
+        requiredKeywords: ['pameran', 'masterpiece', 'boga', 'plating', 'tata hidang', 'karya', 'kue', 'dessert'],
+        hint: 'Peristiwa utamanya adalah pameran Masterpiece Boga yang menampilkan seni plating makanan penutup tradisional bergaya modern.'
       },
       who: {
-        requiredKeywords: ['18 siswa', 'siswa', 'murid', 'smk negeri 57 jakarta', 'duta besar', 'chef'],
-        hint: 'Pihak yang terlibat adalah 18 murid PKL Kuliner SMKN 57 Jakarta di bawah bimbingan Executive Chef.'
+        requiredKeywords: ['28', 'siswa', 'murid', 'tata boga', 'salsabila', 'hendra', 'juri', 'chef'],
+        hint: 'Pihak yang terlibat adalah 28 siswa jurusan Tata Boga dan dewan juri tamu Chef Hendra.'
       },
       when: {
-        requiredKeywords: ['jumat', '20', 'november', '2026'],
-        hint: 'Waktu pelaksanaan pada Jumat malam, 20 November 2026.'
+        requiredKeywords: ['jumat', '24', 'oktober', '2026', '09.00'],
+        hint: 'Pameran berlangsung pada hari Jumat, 24 Oktober 2026 (pukul 09.00 - 15.00 WIB).'
       },
       where: {
-        requiredKeywords: ['grand ballroom', 'the heritage hotel', 'jakarta', 'ballroom'],
-        hint: 'Lokasi di Grand Ballroom The Heritage Hotel Jakarta.'
+        requiredKeywords: ['aula', 'galeri', 'smk karya boga', 'sekolah'],
+        hint: 'Lokasi di Aula Utama dan Galeri Kuliner SMK Karya Boga Indah.'
       },
       why: {
-        requiredKeywords: ['fine dining', 'sop', 'presisi', 'standar', 'kompetensi', 'hotel'],
-        hint: 'Tujuannya membuktikan kesiapan kompetensi siswa dalam menerapkan SOP jamuan fine dining berskala kenegaraan.'
+        requiredKeywords: ['artistik', 'visual', 'mewah', 'fine dining', 'tata hidang', 'tujuan', 'daya tarik'],
+        hint: 'Tujuannya melatih keterampilan seni plating agar makanan tradisional tampil berkelas layaknya hidangan restoran mewah.'
       },
       how: {
-        requiredKeywords: ['brigade', 'cold kitchen', 'main course', 'pastry', 'plating', 'tenderloin', 'kursus'],
-        hint: 'Jelaskan bagaimana siswa dibagi ke dalam divisi cold kitchen, main course, dan pastry untuk menyiapkan jamuan 5 babak.'
+        requiredKeywords: ['tata', 'klepon', 'getuk', 'saus', 'gula aren', 'garnish', 'piring', 'daun mint', 'proses'],
+        hint: 'Caranya dengan memadukan kue klepon atau getuk, dihias saus gula aren melingkar artistik, dan garnish daun mint.'
       }
     }
   },
@@ -539,116 +539,110 @@ export const NEWS_CASES: NewsCase[] = [
     caseNumber: '06',
     groupNumber: 6,
     groupName: 'Kelompok 6',
-    topicTitle: 'Eksplorasi Gastronomi Nusantara: Siswa SMK Pamerkan 45 Hidangan Rempah Kuno yang Nyaris Punah',
-    category: 'Gastronomi Budaya & Pelestarian Warisan Kuliner',
-    overview: 'Penelitian dan unjuk karya siswa kuliner dalam mendokumentasikan serta menghidupkan kembali puluhan resep pusaka masakan tradisional nusantara.',
+    topicTitle: 'Bazar Kewirausahaan Kuliner: Siswa SMK Raup Omzet Jutaan Rupiah dari Jualan Bento & Dessert Box',
+    category: 'Kewirausahaan Kuliner (Gastro-Entrepreneurship)',
+    overview: 'Program bazar kewirausahaan siswa SMK Kuliner menjual paket bento rice box lezat dan aneka dessert box kekinian yang laris diserbu pembeli hingga meraup omzet jutaan rupiah.',
     cards: [
       {
         id: 'c6-card-01',
         number: '01',
         label: 'KARTU INFORMASI 01',
-        sublabel: 'Laporan Peristiwa',
-        content: 'Festival Gastronomi Budaya bertajuk “Menghidupkan Rempah Pusaka yang Terlupakan” resmi digelar, menampilkan rekonstruksi 45 jenis hidangan tradisional kuno nusantara yang hampir punah.',
-        keywords: ['festival gastronomi', 'rempah pusaka', '45 hidangan', 'tradisional kuno', 'rekonstruksi', 'kuliner']
+        sublabel: 'Peristiwa Utama (Bahan Judul & Teras Berita)',
+        content: 'Siswa SMK Kuliner menyelenggarakan bazar kewirausahaan bertajuk “Gastro-Youth Food Market” dengan menjual aneka menu bento rice box dan dessert box kekinian.',
+        keywords: ['bazar', 'kewirausahaan', 'gastro-youth', 'bento', 'dessert box', 'siswa smk']
       },
       {
         id: 'c6-card-02',
         number: '02',
         label: 'KARTU INFORMASI 02',
-        sublabel: 'Tim Riset Siswa',
-        content: 'Proyek pelestarian warisan budaya ini diprakarsai oleh 75 murid lintas tingkat Konsentrasi Keahlian Kuliner SMK Negeri 1 Sewon Bantul bekerja sama dengan paguyuban pemerhati sejarah boga nusantara.',
-        keywords: ['75 murid', 'siswa', 'smk negeri 1 sewon', 'bantul', 'kuliner', 'riset']
+        sublabel: 'Pihak Terlibat (Siapa yang Terlibat)',
+        content: 'Bazar ini dikelola mandiri oleh 6 stan siswa kelas XI Kuliner dan dibeli antusias oleh ratusan warga sekolah serta masyarakat umum.',
+        keywords: ['6 stan', 'siswa', 'kelas xi', 'kuliner', 'warga sekolah', 'masyarakat', 'pembeli']
       },
       {
         id: 'c6-card-03',
         number: '03',
         label: 'KARTU INFORMASI 03',
-        sublabel: 'Lokasi Penyelenggaraan',
-        content: 'Festival diselenggarakan di Pendopo Sasana Hinggil Dhinggir Keraton Yogyakarta dan pelataran Kampus Seni SMKN 1 Sewon, D.I. Yogyakarta.',
-        keywords: ['pendopo', 'sasana hinggil', 'keraton', 'yogyakarta', 'smkn 1 sewon']
+        sublabel: 'Lokasi Peristiwa (Di mana Berlangsung)',
+        content: 'Kegiatan bazar diselenggarakan di Halaman Parkir Depan dan Koridor SMK Bina Mandiri Kuliner.',
+        keywords: ['halaman', 'koridor', 'smk bina mandiri kuliner', 'sekolah']
       },
       {
         id: 'c6-card-04',
         number: '04',
         label: 'KARTU INFORMASI 04',
-        sublabel: 'Waktu Pelaksanaan',
-        content: 'Pameran dibuka untuk masyarakat luas dan wisatawan pada hari Sabtu, 28 November 2026, mulai pukul 09.00 hingga 17.00 WIB.',
-        keywords: ['sabtu', '28 november 2026', 'november', '2026', '09.00']
+        sublabel: 'Waktu Peristiwa (Kapan Terjadi)',
+        content: 'Bazar kuliner berlangsung meriah pada hari Sabtu, 25 Oktober 2026, mulai pukul 07.30 hingga 13.00 WIB.',
+        keywords: ['sabtu', '25 oktober 2026', 'oktober', '2026', '07.30']
       },
       {
         id: 'c6-card-05',
         number: '05',
         label: 'KARTU INFORMASI 05',
-        sublabel: 'Tujuan Pelestarian',
-        content: 'Kegiatan ini diselenggarakan guna merevitalisasi resep warisan leluhur nusantara dari kepunahan, mengenalkan kembali khasiat rempah endemik kepada generasi muda, serta mendokumentasikan kekayaan gastronomi boga bangsa.',
-        keywords: ['merevitalisasi', 'warisan leluhur', 'rempah endemik', 'generasi muda', 'gastronomi', 'sejarah']
+        sublabel: 'Tujuan Kegiatan (Mengapa Diadakan)',
+        content: 'Kegiatan ini diadakan untuk melatih siswa menghitung modal produksi (HPP), menentukan harga jual bersaing, serta mempraktikkan keterampilan komunikasi melayani pelanggan secara ramah.',
+        keywords: ['modal', 'hpp', 'harga jual', 'komunikasi', 'melayani', 'kewirausahaan', 'tujuan']
       },
       {
         id: 'c6-card-06',
         number: '06',
         label: 'KARTU INFORMASI 06',
-        sublabel: 'Metode Penggalian Resep',
-        content: 'Selama tiga bulan, para murid mewawancarai juru masak keraton sepuh, menerjemahkan naskah resep kuno serat centhini, meracik rempah langka seperti andaliman, temu kunci, dan keluwek hutan, serta memasaknya menggunakan kuali tanah liat dengan teknik perapian kayu bakar perlahan (slow cooking).',
-        keywords: ['wawancara', 'naskah kuno', 'rempah langka', 'kuali tanah liat', 'slow cooking', 'kayu bakar']
+        sublabel: 'Proses Kerja (Bagaimana Jalannya)',
+        content: 'Siswa memasak hidangan ayam katsu dan saus teriyaki sejak pagi, mengemasnya dalam wadah bento ramah lingkungan, menyusun display stan yang menarik, serta menerima pembayaran nontunai QRIS.',
+        keywords: ['ayam katsu', 'teriyaki', 'bento', 'ramah lingkungan', 'display', 'qris', 'proses']
       },
       {
         id: 'c6-card-07',
         number: '07',
         label: 'KARTU INFORMASI 07',
-        sublabel: 'Antusiasme Pengunjung',
-        content: 'Sebanyak 1.000 porsi hidangan cicipan seperti Bebek Suwar-Suwir Keraton dan Sayur Brongkos Kluwek Hutan ludes dicicipi oleh 800 pengunjung lokal dan turis mancanegara yang memadati arena pameran.',
-        keywords: ['1.000 porsi', '800 pengunjung', 'bebek suwar-suwir', 'brongkos', 'turis']
+        sublabel: 'Hasil Akhir (Fakta & Angka)',
+        content: 'Sebanyak 300 porsi bento dan 180 kotak dessert box ludes terjual dengan total omzet penjualan mencapai Rp5.200.000 dalam waktu kurang dari lima jam.',
+        keywords: ['300 porsi', '180 kotak', 'omzet', 'rp5.200.000', 'ludes', 'hasil']
       },
       {
         id: 'c6-card-08',
         number: '08',
         label: 'KARTU INFORMASI 08',
-        sublabel: 'Pernyataan Narasumber',
-        content: '“Upaya anak-anak SMK melestarikan resep kuno ini sungguh mulia. Kuliner bukan sekadar makanan pengisi perut, melainkan identitas peradaban bangsa yang tidak boleh hilang ditelan zaman,” tutur KRT Pujaningrat, pemerhati budaya boga Keraton Yogyakarta.',
-        authorNote: 'KRT Pujaningrat (Pemerhati Budaya & Kuliner Keraton Yogyakarta)',
-        keywords: ['pujaningrat', 'keraton', 'peradaban', 'budaya', 'identitas bangsa']
+        sublabel: 'Pernyataan Narasumber (Kutipan Tokoh)',
+        content: '“Kami belajar bahwa sukses berbisnis kuliner tidak cuma soal rasa makanan yang enak, tetapi juga kemasan rapi dan senyum ramah saat melayani pembeli,” kata Dimas, ketua panitia bazar murid.',
+        authorNote: 'Dimas Aditya (Ketua Panitia Bazar Siswa Kelas XI)',
+        keywords: ['dimas', 'bisnis kuliner', 'kemasan rapi', 'senyum', 'ramah', 'melayani']
       }
     ],
     validation: {
       what: {
-        requiredKeywords: ['festival', 'gastronomi', 'rempah', 'kuno', 'tradisional', 'punah', '45 hidangan', 'boga'],
-        hint: 'Peristiwa utamanya adalah Festival Gastronomi Budaya yang merekonstruksi 45 hidangan rempah kuno nusantara yang hampir punah.'
+        requiredKeywords: ['bazar', 'kewirausahaan', 'bento', 'dessert box', 'jualan', 'gastro', 'kuliner'],
+        hint: 'Peristiwa utamanya adalah bazar kewirausahaan kuliner siswa menjual aneka bento box dan dessert box.'
       },
       who: {
-        requiredKeywords: ['75 murid', 'murid', 'siswa', 'smk negeri 1 sewon', 'keraton', 'kuliner'],
-        hint: 'Pihak yang terlibat adalah 75 murid kejuruan kuliner SMKN 1 Sewon Bantul bersama narasumber keraton.'
+        requiredKeywords: ['siswa', 'murid', 'kelas xi', 'stan', 'dimas', 'warga', 'pembeli'],
+        hint: 'Pihak yang terlibat adalah siswa kelas XI Kuliner bersama ketua panitia murid Dimas Aditya.'
       },
       when: {
-        requiredKeywords: ['sabtu', '28', 'november', '2026'],
-        hint: 'Peristiwa diselenggarakan pada hari Sabtu, 28 November 2026.'
+        requiredKeywords: ['sabtu', '25', 'oktober', '2026', '07.30'],
+        hint: 'Bazar diadakan pada hari Sabtu, 25 Oktober 2026 (pukul 07.30 - 13.00 WIB).'
       },
       where: {
-        requiredKeywords: ['pendopo', 'sasana hinggil', 'keraton', 'yogyakarta', 'sewon', 'bantul'],
-        hint: 'Lokasi di Pendopo Sasana Hinggil Keraton Yogyakarta dan SMKN 1 Sewon.'
+        requiredKeywords: ['halaman', 'koridor', 'smk bina mandiri', 'sekolah'],
+        hint: 'Lokasi bazar di Halaman dan Koridor SMK Bina Mandiri Kuliner.'
       },
       why: {
-        requiredKeywords: ['revitalisasi', 'warisan', 'leluhur', 'rempah', 'punah', 'generasi', 'budaya', 'identitas'],
-        hint: 'Tujuannya merevitalisasi resep warisan pusaka nusantara dari kepunahan dan mengedukasi generasi muda.'
+        requiredKeywords: ['hpp', 'modal', 'harga', 'jual', 'wirausaha', 'bisnis', 'pelanggan', 'tujuan', 'latih'],
+        hint: 'Tujuannya melatih siswa menghitung modal/HPP, menentukan harga jual bersaing, dan melayani pelanggan dengan ramah.'
       },
       how: {
-        requiredKeywords: ['wawancara', 'naskah', 'kuno', 'kuali', 'rempah', 'slow cooking', 'kayu bakar'],
-        hint: 'Jelaskan bagaimana siswa mewawancarai juru masak sepuh, menerjemahkan naskah resep kuno, dan memasak dengan kuali tanah liat perlahan.'
+        requiredKeywords: ['masak', 'ayam katsu', 'bento', 'kemas', 'display', 'qris', 'jual', 'proses'],
+        hint: 'Caranya dengan memasak paket bento ayam katsu sejak pagi, mengemas dalam wadah ramah lingkungan, dan melayani pembeli dengan QRIS.'
       }
     }
   }
 ];
 
-export function getCaseByGroup(groupName: string): NewsCase {
-  const match = NEWS_CASES.find(c => c.groupName.toLowerCase() === groupName.toLowerCase());
-  return match || NEWS_CASES[0];
-}
-
 export function getCaseById(caseId: string): NewsCase {
-  const match = NEWS_CASES.find(c => c.id === caseId);
-  return match || NEWS_CASES[0];
+  return NEWS_CASES.find((c) => c.id === caseId) || NEWS_CASES[0];
 }
 
-export function getCaseByGroupNumber(num: number): NewsCase {
-  const match = NEWS_CASES.find(c => c.groupNumber === num);
-  return match || NEWS_CASES[0];
+export function getCaseByGroup(groupName: string): NewsCase {
+  return NEWS_CASES.find((c) => c.groupName === groupName) || NEWS_CASES[0];
 }
+
